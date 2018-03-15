@@ -1,14 +1,7 @@
-# ej2-ng-grid-Customize-row
+# ej2-ng-grid-routing
 
-Customizing row based on the row cell value.
+Grid with Angualr routing 
 
-## Requirement
-
-Strike through the row based on the row cell value.
-
-## Solution 
-
-Row can be customized using `rowDataBound` event of Grid Component that triggers for every row.
 
 ## Installing
 
