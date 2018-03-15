@@ -13,7 +13,7 @@ import { GridComponent } from '@syncfusion/ej2-ng-grids';
 
 @Component({
     selector: 'app-container',
-    template: `<ejs-grid #grid [dataSource]='data' height='200px' [enablePersistence]='true' [allowReordering]='true' [allowResizing]='true' [allowSorting]='true' [allowFiltering]='true'>
+    template: `<ejs-grid #grid [dataSource]='data' height='200px' [enablePersistence]='true' [allowSorting]='true' [allowFiltering]='true'>
                 <e-columns>
                     <e-column field='OrderID' headerText='Order ID' textAlign='Right' width=120></e-column>
                     <e-column field='CustomerID' headerText='Customer ID' width=150></e-column>
